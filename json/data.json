@@ -1,0 +1,592 @@
+{
+  "nie-list": {
+    "1": [
+      {
+        "classname": "NIE-topBar-1st",
+        "text": "梦幻西游电脑版"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "大话2经典版"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "天下3"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "新倩女幽魂"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "逆水寒"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "天谕"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "西楚霸王"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "龙魂时刻"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "泰亚史诗"
+      },
+      {
+        "classname": "",
+        "text": "大话2免费版"
+      },
+      {
+        "classname": "",
+        "text": "新大话3经典版"
+      },
+      {
+        "classname": "",
+        "text": "新大话3免费版"
+      },
+      {
+        "classname": "",
+        "text": "镇魔曲"
+      },
+      {
+        "classname": "",
+        "text": "大唐无双"
+      },
+      {
+        "classname": "",
+        "text": "武魂2"
+      },
+      {
+        "classname": "",
+        "text": "魔兽世界"
+      }
+    ],
+    "2": [
+      {
+        "classname": "",
+        "text": "暗黑破坏神3"
+      },
+      {
+        "classname": "",
+        "text": "新飞飞"
+      },
+      {
+        "classname": "",
+        "text": "精灵传说"
+      },
+      {
+        "classname": "",
+        "text": "斩魂"
+      }
+    ],
+    "3": [
+      {
+        "classname": "NIE-topBar-new",
+        "text": "我的世界"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "守望先锋"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "突击英雄"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "无尽战区"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "战意"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "秘境对决"
+      },
+      {
+        "classname": "",
+        "text": "风暴英雄"
+      },
+      {
+        "classname": "",
+        "text": "星际争霸Ⅱ"
+      },
+      {
+        "classname": "",
+        "text": "英雄三国"
+      },
+      {
+        "classname": "",
+        "text": "炉石传说"
+      }
+    ],
+    "4": [
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "梦幻西游手游"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "大话西游手游"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "倩女幽魂手游"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "阴阳师"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "率土之滨"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "镇魔曲手游"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "Raven：掠夺者"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "大唐无双唯美篇"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "乱斗西游2"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "梦幻西游无双2"
+      },
+      {
+        "classname": "",
+        "text": "功夫熊猫3手游"
+      },
+      {
+        "classname": "",
+        "text": "西游神魔决"
+      },
+      {
+        "classname": "",
+        "text": "梦想星城"
+      },
+      {
+        "classname": "",
+        "text": "乖离性百万亚瑟王"
+      },
+      {
+        "classname": "",
+        "text": "有杀气童话"
+      }
+    ],
+    "5": [
+      {
+        "classname": "NIE-topBar-new",
+        "text": "天下手游"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "我的世界Minecraft"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "终结者2官方手游"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "秘宝猎人"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "坦克世界闪击战"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "天启联盟"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "叛逆性百万亚瑟王"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "元气战姬学院"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "萌王EX"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "泰坦黎明"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "初音速"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "战国志"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "飞刀又见飞刀"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "玩具大乱斗"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "边境之旅"
+      },
+      {
+        "classname": "",
+        "text": "小汪汪"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "秘境对决"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "魔法禁书目录"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "三国如龙传"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "迷雾世界"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "光明大陆"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "荆棘王座"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "重装突击"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "坦克连"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "天骄铁骑"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "汉王纷争"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "第五人格"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "永远的7日之都"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "楚留香"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "流星蝴蝶剑"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "墟土之争"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "狩猎纪元"
+      },
+      {
+        "classname": "",
+        "text": "大话西游热血版"
+      },
+      {
+        "classname": "",
+        "text": "猎魂觉醒"
+      },
+      {
+        "classname": "",
+        "text": "大航海之路"
+      },
+      {
+        "classname": "",
+        "text": "神都夜行录"
+      },
+      {
+        "classname": "",
+        "text": "三少爷的剑"
+      },
+      {
+        "classname": "",
+        "text": "我守护的一切"
+      },
+      {
+        "classname": "",
+        "text": "劲舞团"
+      },
+      {
+        "classname": "",
+        "text": "潮人篮球"
+      },
+      {
+        "classname": "",
+        "text": "永恒文明"
+      },
+      {
+        "classname": "",
+        "text": "魂之幻影"
+      },
+      {
+        "classname": "",
+        "text": "大唐游仙记"
+      },
+      {
+        "classname": "",
+        "text": "大富翁9"
+      },
+      {
+        "classname": "",
+        "text": "无尽战区·觉醒"
+      },
+      {
+        "classname": "",
+        "text": "无限战争"
+      },
+      {
+        "classname": "",
+        "text": "格罗亚传奇"
+      },
+      {
+        "classname": "",
+        "text": "倩女幽魂录"
+      },
+      {
+        "classname": "",
+        "text": "花语月"
+      },
+      {
+        "classname": "",
+        "text": "黑暗启元"
+      },
+      {
+        "classname": "",
+        "text": "伏魔咒"
+      },
+      {
+        "classname": "",
+        "text": "天下HD"
+      },
+      {
+        "classname": "",
+        "text": "天下X天下"
+      },
+      {
+        "classname": "",
+        "text": "异次元战姬"
+      },
+      {
+        "classname": "",
+        "text": "永恒边境"
+      },
+      {
+        "classname": "",
+        "text": "钢铁黎明"
+      },
+      {
+        "classname": "",
+        "text": "无尽神域"
+      },
+      {
+        "classname": "",
+        "text": "勇士x勇士"
+      },
+      {
+        "classname": "",
+        "text": "斩魂手游版"
+      },
+      {
+        "classname": "",
+        "text": "星际总动员"
+      },
+      {
+        "classname": "",
+        "text": "魔天记"
+      },
+      {
+        "classname": "",
+        "text": "雨血：影之刃"
+      },
+      {
+        "classname": "",
+        "text": "弹弹猴"
+      },
+      {
+        "classname": "",
+        "text": "圣灵觉醒"
+      },
+      {
+        "classname": "",
+        "text": "惊梦"
+      },
+      {
+        "classname": "",
+        "text": "蛋糕物语"
+      },
+      {
+        "classname": "",
+        "text": "忍者必须死2"
+      },
+      {
+        "classname": "",
+        "text": "神魔劫"
+      },
+      {
+        "classname": "",
+        "text": "火拼萌萌消"
+      },
+      {
+        "classname": "",
+        "text": "超能动物联盟"
+      },
+      {
+        "classname": "",
+        "text": "将临天下"
+      },
+      {
+        "classname": "",
+        "text": "小李飞刀"
+      },
+      {
+        "classname": "",
+        "text": "我朝有马"
+      },
+      {
+        "classname": "",
+        "text": "口袋侏罗纪"
+      },
+      {
+        "classname": "",
+        "text": "无限幻斗"
+      },
+      {
+        "classname": "",
+        "text": "烽火王师"
+      },
+      {
+        "classname": "",
+        "text": "迷你西游"
+      },
+      {
+        "classname": "",
+        "text": "来自星星的你"
+      },
+      {
+        "classname": "",
+        "text": "主公莫慌"
+      },
+      {
+        "classname": "",
+        "text": "实况俱乐部"
+      },
+      {
+        "classname": "",
+        "text": "童话大冒险"
+      },
+      {
+        "classname": "",
+        "text": "暴走骑士团"
+      },
+      {
+        "classname": "",
+        "text": "小时代官方游戏"
+      },
+      {
+        "classname": "",
+        "text": "妖刀少女异闻录"
+      },
+      {
+        "classname": "",
+        "text": "猫和老鼠官方手游"
+      },
+      {
+        "classname": "",
+        "text": "功夫熊猫官方手游"
+      }
+    ],
+    "6": [
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "游品位"
+      },
+      {
+        "classname": "NIE-topBar-hot",
+        "text": "网易MuMu"
+      },
+      {
+        "classname": "",
+        "text": "网易游戏印象"
+      },
+      {
+        "classname": "",
+        "text": "网易游戏平台"
+      },
+      {
+        "classname": "NIE-topBar-new",
+        "text": "游戏论坛app"
+      },
+      {
+        "classname": "",
+        "text": "手机将军令"
+      },
+      {
+        "classname": "",
+        "text": "将军令"
+      },
+      {
+        "classname": "",
+        "text": "游戏知道"
+      },
+      {
+        "classname": "",
+        "text": "藏宝阁"
+      },
+      {
+        "classname": "",
+        "text": "网易CC"
+      },
+      {
+        "classname": "",
+        "text": "客服中心"
+      },
+      {
+        "classname": "",
+        "text": "自助百宝箱"
+      },
+      {
+        "classname": "",
+        "text": "网易UU加速器"
+      }
+    ]
+  }
+}

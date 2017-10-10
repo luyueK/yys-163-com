@@ -1,0 +1,34 @@
+{
+  "resource":[
+    {
+      "vedio":[
+        {
+          "src":"image/ajax/vedio1.jpg",
+          "info":"《阴阳师》核心玩法"
+        },
+        {
+          "src":"image/ajax/vedio2.jpg",
+          "info":"《阴阳师》声优阵容"
+        },
+        {
+          "src":"image/ajax/vedio3.jpg",
+          "info":"【阴阳师X极乐净土】抽式神不如跳舞"
+        }
+      ],
+      "wallpaper":[
+        {
+          "src":"image/ajax/vedio4.jpg",
+          "info":"游戏场景原画"
+        },
+        {
+          "src":"image/ajax/vedio5.jpg",
+          "info":"游戏场景原画"
+        },
+        {
+          "src":"image/ajax/vedio6.jpg",
+          "info":"游戏角色原画"
+        }
+      ]
+    }
+  ]
+}

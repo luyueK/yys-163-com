@@ -1,0 +1,20 @@
+//关闭下载窗口
+$(".close_downLoadWindow").click(function(){
+    $("#js-closeDownLoad").hide();
+    $(".downLoad").animate({
+        left:76+"%",
+        width:330+"px"
+    },500);
+    setTimeout(function(){
+        $(".downLoad-close").show()
+    },501)
+});
+//打开
+$(".downLoad-close a").click(function(){
+    $(".downLoad-close").hide();
+    $("#js-closeDownLoad").show();
+    $(".downLoad").animate({
+        left:50+"%",
+        width:533+"px"
+    },500);
+});

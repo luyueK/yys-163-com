@@ -1,0 +1,2508 @@
+/*顶部固定菜单*/
+.fixMenu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.9);
+    margin: 0 auto;
+    z-index: 20;
+    width: 100%;
+    height: 100px;
+    min-width: 1200px;
+    transition: background 0.5s ease;
+}
+.fixMenu .left{
+    opacity: 1;
+    padding-left: 15px;
+    padding-top: 13px;
+    transition:0.5s;
+}
+.fixMenu .left p.fl{
+    width: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.fixMenu .left img{
+    width: 74px;
+    height: 74px;
+    margin-right: 15px;
+}
+.fixMenu .left .fixMenu_logo{
+    height: 72px;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+.fixMenu .left .fixMenu_logo span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -759px -608px no-repeat;
+    width: 73px;
+    height: 73px;
+    margin-right: 14px;
+    float: left;
+    display: block;
+}
+.fixMenu .left .fixMenu_logo div{
+    float: left;
+    padding-top: 2px;
+}
+.fixMenu .left .fixMenu_logo div h3{
+    color: #333;
+    font-size: 32px;
+}
+.fixMenu .left .fixMenu_logo div p{
+    color: #333;
+    font-size: 16px;
+}
+.fixMenu .right{
+    padding-top: 35px;
+    margin-right: 15px;
+}
+.fixMenu .right li{
+    width: 118px;
+    position: relative;
+    float: left;
+    height: 65px;
+}
+.fixMenu .right li a{
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    transition:0.5s;
+}
+.fixMenu .right li span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1689px -248px no-repeat;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 15px;
+    height: 24px;
+}
+.guanfangqudao{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 0;
+    background: #e1ebeb;
+    overflow: hidden;
+    right: 0;
+}
+.guanfangqudao_list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 33px;
+    width: 100%;
+    transition:0.3s linear;
+}
+.qqTeam{
+    width: 320px;
+    height: 104px;
+    padding-left: 50px;
+    border-left: 1px solid #c8d0d0;
+}
+.qqTeam ul{
+    margin-bottom: 10px;
+}
+.qqTeam ul li{
+    float: left;
+    color: #666;
+    font-size: 12px;
+    width: 153px;
+    line-height: 25px;
+}
+.qqTeam p{
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+.official-weChat{
+    width: 222px;
+    height: 104px;
+    position: relative;
+    border-left: 1px solid #c8d0d0;
+}
+.official-weChat img{
+    display: block;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -10px;
+}
+.official-weChat p{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.official-blog{
+    width: 222px;
+    height: 104px;
+    position: relative;
+    border-left: 1px solid #c8d0d0;
+}
+.official-blog img{
+    display: block;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -10px;
+}
+.official-blog p{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.tieba{
+    width: 215px;
+    height: 104px;
+    border-left: 1px solid #c8d0d0;
+}
+.tieba .tiebaInner{
+    transition:0.5s ease;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.tieba .tiebaInner span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -983px -608px no-repeat;
+    width: 81px;
+    height: 68px;
+    display: block;
+    margin:auto;
+}
+.tieba .tiebaInner p{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.luntan{
+    border: 0;
+    width: 215px;
+    height: 104px;
+}
+.luntanInner{
+    transition:0.5s ease;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.luntanInner span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -832px -608px no-repeat;
+    width: 80px;
+    height: 70px;
+    display: block;
+    margin:auto;
+}
+.luntanInner p{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+/*顶部菜单*/
+.topBar{
+    width:100%;
+    height:55px;
+    background: #fbfbfb
+
+}
+.topBar_content{
+    width:1260px;
+    height:55px;
+    margin: auto;
+}
+.topBar_content_gameIcon{
+    width: 133px;
+    height: 44px;
+    display: block;
+    margin-top: 5px;
+    background-image: url("../image/image/WangYiGameIcon.png");
+    cursor: pointer;
+}
+.topBar_content_menu{
+    margin-left: 688px;
+
+}
+.topBar_content_menu ul li{
+    height: 52px;
+    padding: 0 12px;
+    float: left;
+    font-size: 12px;
+    line-height: 52px;
+    border-bottom: 3px solid #fbfbfb;
+    cursor: pointer;
+    transition:1s;
+}
+.topBar_content_gameCatalogue{
+    display: inline-block;
+    width: 108px;
+    height: 25px;
+    padding:15px 0 12px 15px;
+    color: #bc2e2e;
+    font-size: 12px;
+    line-height:25px ;
+    cursor: pointer;
+}
+.topBar_content_gameCatalogue i{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: gray;
+    background: url("../image/Sprite/sprite-w_7fc7459.png") -99px -94px;
+    transition: 1s;
+}
+.gameCatalogue{
+    width: 1260px;
+    display: none;
+    z-index: 59;
+    height: 530px;
+    transition: height 0.4s ease 0s;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    color: #999;
+    overflow: hidden;
+    background: #fdfefe;
+    border-top: 1px solid #ececec;
+    border-collapse: collapse;
+}
+.gameCatalogue_list{
+    width: 100%;
+    position: relative;
+    font-size: 12px;
+}
+.gameCatalogue_list li{
+    float: left;
+    border-right: 1px solid #eee;
+    vertical-align: top;
+}
+.gameCatalogue_list li em{
+    line-height: 39px;
+    color: #bc2e2e;
+    display: block;
+    width: 100%;
+    height: 39px;
+    font-size: 14px;
+    text-indent: 20px;
+    background: #f7f7f8;
+    overflow: hidden;
+    clear: both;
+}
+.gameCatalogue_list .PCgame{
+    width: 299px;
+}
+.gameCatalogue_list .mobileGame{
+    width: 828px;
+    position: absolute;
+    left: 300px;
+    transition:0.3s ease-out;
+}
+.gameCatalogue_list .gameAccessories{
+    width: 131px;
+    float: right;
+}
+.gameCatalogue_content{
+    height: 450px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.gameCatalogue_content li{
+    height: 415px;
+    float: left;
+    padding: 10px 0 0 14px;
+    overflow: hidden;
+}
+.gameCatalogue_content li p{
+    padding: 0;
+    margin: 0;
+    margin-left: 6px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    color: #626262;
+}
+.gameCatalogue_content li a{
+    width: 115px;
+    margin-left: 6px;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 400;
+}
+.gameCatalogue_content li a em{
+    font-weight: 400;
+    display: block;
+    line-height: 24px;
+    font-size: 12px;
+}
+.gameCatalogue_content .PCgame1{
+    width: 121px;
+    border-right: 0;
+}
+.gameCatalogue_content .PCgame2{
+    width: 150px;
+    position: absolute;
+    left: 135px;
+    background-color: #fdfefe;
+    z-index: 3;
+}
+.gameCatalogue_content .PCgame2 .PCgameMore{
+    width: 20px;
+    height: 95px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.gameCatalogue_content .mobileGame1{
+    width: 133px;
+    position: absolute;
+    background: #fdfefe;
+    left: 300px;
+    transition:0.3s ease-out;
+    top: 39px;
+    z-index: 3;
+}
+.gameCatalogue_content .mobileGame2{
+    width: 668px;
+    position: absolute;
+    background: #fdfefe;
+    left: 446px;
+    transition:0.3s ease-out;
+    top: 39px;
+}
+.mobileGame2_news div{
+    margin-right: 8px;
+}
+.mobileGame2_news_list1,.mobileGame2_news_list2{
+    width: 133px;
+    float: left;
+}
+.mobileGame2_news_list3,
+.mobileGame2_news_list4,
+.mobileGame2_news_list5,
+.mobileGame2_news_list6{
+    float: left;
+    width: 106px;
+}
+.gameCatalogue_content .mobileGame2 .mobileGameMore{
+    width: 20px!important;
+    height: 95px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.gameCatalogue_content .gameAccessories1{
+    width: 117px;
+    border-right: 0;
+    float: right;
+
+}
+.scrollMenu{
+    position: absolute;
+    right: 192px;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 55px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.scrollMenu a{
+    color: #333!important;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    line-height: 52px;
+    font-size: 12px;
+}
+
+.scrollMenu a.fadeUp2{
+    opacity: 1;
+    transform: translate(0,0);
+    transition: all ease-in-out .5s;
+}
+
+.scrollMenu a.fadeUp{
+    opacity: 0;
+    transform: translate(0,-70%);
+    transition: all ease-in-out .5s;
+}
+.scrollMenu a.none{
+    opacity: 0;
+    transform: translate(0,70%);
+}
+/*banner*/
+.banner{
+    width: 1899px;
+    position: relative;
+    height: 585px;
+    margin: auto;
+    background: url("../image/image/main_banner_2eeb95c.jpg");
+    background-size:1899px 585px;
+}
+.banner .banner_topBar{
+    width: 100%;
+    height:100px;
+}
+.banner .banner_topBar .banner_topBar_menu{
+    padding-top: 35px;
+    margin-right: 15px;
+}
+.banner .banner_topBar .banner_topBar_menu li{
+    width: 118px;
+    position: relative;
+    float: left;
+    height: 65px;
+}
+.banner .banner_topBar .banner_topBar_menu li a{
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    transition: 1s;
+}
+.banner .banner_topBar .banner_topBar_menu li span{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 15px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background:url("../image/Sprite/index_z_90de8dc.png")-1688px -225px ;
+    z-index: 2;
+
+}
+.banner .banner_logo {
+    display: block;
+    width: 50px;
+    height: 162px;
+    position: absolute;
+    left: 50px;
+    top: 38px;
+    background: url("../image/image/logo_df9cf4d.png") 50px 162px;
+    background-size: 50px 162px;
+}
+.banner .arrow{
+    display: block;
+    width: 41px;
+    height: 66px;
+    position: absolute;
+    right: 157px;
+    top: 154px;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -545px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 5;
+}
+.banner .roleBox{
+    width: 1200px;
+    height: 83%;
+    margin: auto;
+    /*background: olivedrab;*/
+    position: relative;
+
+}
+.banner .roleBox .role span{
+    position: absolute;
+    bottom: 0;
+}
+#role1,#role3{
+    opacity: 100;
+    left: 160px;
+}
+#role1X,#role3X{
+    opacity: 0 ;
+    left: 270px;
+}
+#role2,#role4{
+    opacity: 100;
+    left: 366px;
+}
+#role2X,#role4X{
+    opacity: 0;
+    left: 100px;
+}
+.banner .bunny{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 135px;
+    height: 118px;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -535px;
+    background: url("../image/image/bunny_cc1e937.gif");
+    background-size: 135px 118px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 91px;
+    overflow: hidden;
+}
+.wave1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: swim 4s infinite linear;
+
+}
+.wave2{
+    position: absolute;
+    bottom: 0;
+    left: 1284px;
+    animation: swim 4s infinite linear;
+
+}
+.wave3{
+    position: absolute;
+    bottom: 0;
+    left: 2568px;
+    animation: swim 4s infinite linear;
+
+}
+.wave4{
+    position: absolute;
+    bottom: 0;
+    left: -400px;
+    animation: swim 4s infinite linear;
+
+}
+.wave5{
+    position: absolute;
+    bottom: 0;
+    left: 884px;
+    animation: swim 4s infinite linear;
+
+}
+.wave6{
+    position: absolute;
+    bottom: 0;
+    left: 2168px;
+    animation: swim 4s infinite linear;
+
+}
+.wave7{
+    position: absolute;
+    bottom: 0;
+    left: -800px;
+    animation: swim 4s infinite linear;
+
+}
+.wave8{
+    position: absolute;
+    bottom: 0;
+    left: 484px;
+    animation: swim 4s infinite linear;
+
+}
+.wave9{
+    position: absolute;
+    bottom: 0;
+    left: 1768px;
+    animation: swim 4s infinite linear;
+
+}
+.wave10{
+    position: absolute;
+    bottom: 0;
+    left: 3052px;
+    animation: swim 4s infinite linear;
+
+}
+@keyframes swim{
+    from{transform: translate(0,0)  }
+    to{transform: translate(-1284px,0px)}
+}
+/*下载浮窗*/
+.banner .downLoad{
+    display: block;
+    /*display: none;*/
+    position: absolute;
+    width: 533px;
+    height: 123px;
+    top: 462px;
+    left: 50%;
+    /*overflow: hidden;*/
+    margin-left: -291px;
+    z-index: 9;
+    background: #fccc00;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 0 7px 4px #feeb00 inset;
+}
+#js-closeDownLoad{
+    display: block;
+}
+.banner .downLoad .downLoad_allContent{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /*background-color: red;*/
+}
+.banner .downLoad .downLoad_allContent .close_downLoadWindow{
+    margin-right: 10px;
+    width: 22px;
+    height: 23px;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1684px -835px no-repeat;
+}
+.banner .downLoad .downLoad_allContent>span{
+    width: 45px;
+    height: 100px;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1350px -614px no-repeat;
+    margin-right: 10px;
+}
+.banner .downLoad .downLoad_allContent .scan{
+    width: 91px;
+    height: 91px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+}
+.scan .QR{
+    width: 100%;
+    height: 100%;
+}
+.scan .QRLine{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: QR 2s infinite linear;
+}
+@keyframes QR{
+    from{transform: translate(0,0)  }
+    to{transform: translate(0,91px)}
+}
+.downLoad_allContent .android-apple-downLoad{
+    width: 175px;
+    height: 120px;
+    margin-left: 6px;
+    /*background-color: red;*/
+}
+.downLoad_allContent .android-apple-downLoad .appleAddress{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1174px -1314px no-repeat;
+    display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+}
+.downLoad_allContent .android-apple-downLoad .androidAddress{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1080px -993px no-repeat;
+    display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+}
+.downLoad_allContent .PC-download{
+    background: url("../image/Sprite/index_z_90de8dc.png") -928px -683px no-repeat;
+    width: 131px;
+    height: 107px;
+    margin-left: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+}
+.downLoad_allContent .PC-download i{
+    /*display: none;*/
+    position: absolute;
+    right: 55px;
+    bottom: 118px;
+    width: 15px;
+    height: 8px;
+    background: url("../image/icon/icon13_136dc7a.png") 0 0;
+    transition: 2s;
+    opacity: 0;
+}
+.downLoad_allContent .PC-download .PC-download-h{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.2;
+    border-radius: 4px;
+    transition: 2s;
+}
+.downLoad_allContent .PC-download .PC-download_information{
+    /*display: none;*/
+    width: 350px;
+    height: 80px;
+    background: rgba(255,255,255,.9);
+    border-radius: 10px;
+    position: absolute;
+    top: -108px;
+    left: -77%;
+    margin-left: -100px;
+    z-index: 11;
+    padding-top: 10px;
+    transition: 2s;
+    opacity: 0;
+}
+.downLoad_allContent .PC-download .PC-download_information p{
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 20px;
+}
+.downLoad-close{
+    display: block;
+    padding:10px;
+}
+.downLoad-close a{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1328px -614px no-repeat;
+    width: 22px;
+    height: 105px;
+    display: block;
+}
+/*游戏日历*/
+.gameCalendar{
+    z-index: 10;
+    position: absolute;
+    width: 633px;
+    height: 1129px;
+    background: url("../image/image/side_bg_65a8568.png") bottom center no-repeat;
+    left: 50%;
+    margin-left: 242px;
+    top: 345px;
+}
+.gameCalendar i{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 20;
+    top: 140px;
+    left: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fee300;
+}
+.gameCalendar .gameCalendar_tittle{
+    position: absolute;
+    width: 321px;
+    height: 168px;
+    top: 59px;
+    left: 25px;
+    z-index: 2;
+    background: url("../image/Sprite/index_z_90de8dc.png") -586px -872px no-repeat;
+}
+.gameCalendar .gameCalendarList{
+    width: 346px;
+    padding-top: 222px;
+}
+.gameCalendar .gameCalendarList a{
+    display: block;
+}
+.gameCalendarList1{
+    background: url("../image/Sprite/index_z_90de8dc.png") -661px -1057px no-repeat;
+    display: inline-block;
+    width: 321px;
+    height: 104px;
+    padding-top: 0;
+    margin-top: -15px;
+    position: relative;
+    z-index: 15;
+    margin-left: 28px;
+    transition: 0.5s;
+}
+.gameCalendarList a span{
+    display: block;
+    color: #000;
+    font-size: 13px;
+}
+.gameCalendarList1 span{
+    margin: 57px 110px 0 25px;
+}
+.gameCalendarList2{
+    background: url("../image/Sprite/index_z_90de8dc.png") 0 -1314px no-repeat;
+    width: 324px;
+    height: 96px;
+    padding-top: 0;
+    margin-top: 5px;
+    position: relative;
+    z-index: 14;
+}
+.gameCalendarList2>span,.gameCalendarList2-push>span {
+    margin: 43px 10px 0 165px;
+}
+.gameCalendarList2 .gameCalendarList2-push{
+    background: url("../image/Sprite/index_z_90de8dc.png") -308px 0 no-repeat;
+    height: 363px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.gameCalendarList2 .gameCalendarList2-push .gameCalendarList2-push_content{
+    margin: 20px 0 0 17px;
+    padding: 0 27px 0 50px;
+}
+.gameCalendarList2 .gameCalendarList2-push .gameCalendarList2-push_content p {
+    margin: 8px 0;
+    line-height: 20px;
+    font-size: 13px;
+}
+.gameCalendarList2 .gameCalendarList2-push .gameCalendarList2-push_content p em{
+    font-style: normal;
+    color: #f95c19;
+}
+.gameCalendarList3{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1400px -99px no-repeat;
+    width: 307px;
+    height: 97px;
+    padding-top: 0;
+    margin-top: -2px;
+    position: relative;
+    z-index: 13;
+    margin-left: 28px;
+}
+.gameCalendarList3>span,
+.gameCalendarList3-push>span {
+    margin: 46px 110px 0 24px;
+}
+.gameCalendarList3 .gameCalendarList3-push{
+    background: url("../image/Sprite/index_z_90de8dc.png") -327px -683px no-repeat;
+    height: 187px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.gameCalendarList3 .gameCalendarList3-push .gameCalendarList3-push_content p{
+    margin: 29px 26px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.gameCalendarList4{
+    background: url("../image/Sprite/index_z_90de8dc.png") -301px -1210px no-repeat;
+    width: 294px;
+    height: 100px;
+    padding-top: 0;
+    margin-top: -2px;
+    position: relative;
+    z-index: 12;
+    margin-right: 28px;
+}
+.gameCalendarList4>span,.gameCalendarList4-push>span{
+    margin: 46px 10px 0 136px;
+}
+.gameCalendarList4 .gameCalendarList4-push{
+    background: url("../image/Sprite/index_z_90de8dc.png") -634px -683px no-repeat;
+    height: 187px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.gameCalendarList4 .gameCalendarList4-push .gameCalendarList4-push_content p{
+    margin: 27px 33px;
+    line-height: 20px;
+    color: #000;
+    font-size: 13px;
+}
+.gameCalendarList5{
+    background: url("../image/Sprite/index_z_90de8dc.png") -330px -1057px no-repeat;
+    width: 331px;
+    height: 85px;
+    padding-top: 60px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 11;
+    margin-left: 28px;
+}
+.gameCalendarList5>span{
+    margin: 2px 0 0 10px;
+}
+.gameCalendarList5-push>span{
+    margin: 62px 0 0 10px;
+}
+.gameCalendarList5 .gameCalendarList5-push{
+    background: url("../image/Sprite/index_z_90de8dc.png") -210px -364px no-repeat;
+    height: 302px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.gameCalendarList5-push_content>p{
+    margin: 9px 10px;
+    font-size: 13px;
+}
+.gameCalendarList6{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1400px 0 no-repeat;
+    width: 308px;
+    height: 99px;
+    padding-top: 0;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+    margin-right: 28px;
+}
+.gameCalendarList6>span,
+.gameCalendarList6-push>span{
+    margin: 61px 10px 0 145px;
+}
+.gameCalendarList6-push{
+    background: url("../image/Sprite/index_z_90de8dc.png") 0 0 no-repeat;
+    height: 364px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.gameCalendarList7{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1080px -882px no-repeat;
+    width: 309px;
+    height: 108px;
+    margin-top: -13px;
+    margin-bottom: -7px;
+    margin-right: 12px;
+}
+.gameCalendarList7 span{
+    margin: 53px 125px 0 20px;
+}
+.gameCalendarList8{
+    background: url("../image/Sprite/index_z_90de8dc.png") -595px -1210px no-repeat;
+    width: 312px;
+    height: 104px;
+    margin-right: 28px;
+}
+.gameCalendarList8 span{
+    margin: 46px 0 0 109px;
+}
+.gameCalendarList9{
+    background: url("../image/Sprite/index_z_90de8dc.png") -906px -1210px no-repeat;
+    margin-bottom: -9px;
+    margin-top: -15px;
+    width: 312px;
+    height: 100px;
+    margin-left: 28px;
+}
+.gameCalendarList9 span{
+    margin: 62px 0 0 24px;
+}
+/*新闻*/
+.news{
+    background: #fff;
+    width: 100%;
+    position: relative;
+    padding-bottom: 49px;
+
+}
+.newsContent{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.news_banner{
+    width: 360px;
+    height: 270px;
+    position: relative;
+    float: left;
+    margin-left: -106px;
+    overflow: hidden;
+
+}
+
+.news_banner .news_bannerImg{
+    width: 2160px;
+    height: 270px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.news_banner .news_bannerImg li{
+    width: 360px;
+    height: 270px;
+    float: left;
+}
+.news_banner .news_bannerImg li img{
+    width: 360px;
+    height: 270px;
+}
+.news_banner .news_bannerPoint{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 16px;
+    right: 12px;
+    bottom: 10px;
+}
+.news_banner .news_bannerPoint li{
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    display: inline-block;
+    border: 3px solid #e37b63;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.news_box{
+    margin-left: 39px;
+    width: 500px;
+    height: 270px;
+}
+.news_box_tittleList{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 2px;
+}
+.news_box_tittleList ul li{
+    float: left;
+    position: relative;
+    margin-right: 15px;
+    width: 74px;
+    height: 35px;
+    cursor: pointer
+}
+.news_box_tittleList ul li span{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 44px;
+    height: 30px;
+}
+.news_box_tittleList ul li i{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1689px -196px  no-repeat;
+    position: absolute;
+    top: 6px;
+    right: -18px;
+    width: 17px;
+    height: 28px;
+}
+.news_box_tittleList ul .newsTab1 span{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -835px  no-repeat;
+}
+.news_box_tittleList ul .newsTab2 span{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -1218px  no-repeat;
+}
+.news_box_tittleList ul .newsTab3 span{
+    background: url("../image/Sprite/index_z_90de8dc.png") -690px -395px  no-repeat;
+}
+.news_box_tittleList ul .newsTab4 span{
+    background: url("../image/Sprite/index_z_90de8dc.png") -690px -425px  no-repeat;
+}
+.news_box_tittleList ul .newsTab5 span{
+    background: url("../image/Sprite/index_z_90de8dc.png") -690px -364px  no-repeat;
+}
+.news_box_tittleList ul li em{
+    opacity: 0;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: block;
+    width: 74px;
+    height: 33px;
+    border-radius: 20px;
+    background: #68d7fc;
+    cursor: pointer;
+    transform: translate(0,10px);
+    transition: 1s;
+}
+
+.news_box_tittleList ul li.activity em{
+    opacity: 1;
+    transform: translate(0,0);
+    transition: 1s;
+}
+.news_contentBox{
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 205px;
+    border-top: 1px solid #000;
+}
+.news_contentBox .news_allNewsContent{
+    position: relative;
+    width: 3000px;
+    height: 205px;
+    left: 0;
+}
+.news_contentBox ul{
+    float: left;
+    width: 500px;
+    height: 205px;
+}
+.news_contentBox ul li{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #999;
+}
+.news_contentBox ul li.recommend a{
+    background: url("../image/image/recommend_c87c343.png") 0 center no-repeat;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #313131;
+    font-weight: 700;
+}
+.news_contentBox ul li.recommend a span{
+    color: #313131;
+    font-size: 14px;
+    font-weight: 400;
+}
+.news_contentBox ul li a{
+    color: #333;
+    font-size: 14px;
+    float: left;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.news_contentBox ul li em{
+    float: right;
+    font-style: normal;
+    color: #bccddc;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 400;
+}
+/*弑神*/
+.shiShen{
+    position: relative;
+    width: 1920px;
+    height: 607px;
+    margin: auto;
+    background: url("../image/image/shishen_bg_ca94010.jpg") center 105px no-repeat;
+}
+.shiShen .SS-tittle{
+    margin: 0 auto;
+    margin-bottom: 42px;
+    width: 1200px;
+}
+.SS-tittle .SS-tittle_step1{
+    background: url("../image/Sprite/index_z_90de8dc.png") -884px -1314px  no-repeat;
+    width: 130px;
+    height: 69px;
+    margin-top: 16px;
+    margin-right: 12px;
+}
+.SS-tittle .dotLink{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1479px -377px  no-repeat;
+    margin-top: 50px;
+    width: 44px;
+    height: 4px;
+}
+.SS-tittle a{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 91px;
+    margin: 5px 8px 0;
+}
+.SS-tittle .nameSS span{
+    display: block;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1328px -719px  no-repeat;
+    width: 70px;
+    height: 33px;
+    margin: 0 auto;
+    margin-top: 27px;
+    position: relative;
+    z-index: 2;
+}
+.SS-tittle a em{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1592px -196px  no-repeat;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 96px;
+    height: 91px;
+    opacity: 0;
+    transform: translate(0,10%);
+    transition:0.3s linear;
+}
+.SS-tittle a.active em{
+    transform: translate3d(0,0,0);
+    opacity: 1;
+}
+.SS-tittle .nameRole span{
+    display: block;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -908px  no-repeat;
+    width: 70px;
+    height: 33px;
+    margin: 0 auto;
+    margin-top: 27px;
+    position: relative;
+    z-index: 2;
+}
+.SS-content{
+    position: relative;
+    width: 1200px;
+    height: 304px;
+    margin: 0 auto;
+}
+.SS-content .SSContainer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+.SS-content .SSContainer.show,
+.SS-content .RoleContainer.show{
+    opacity: 1;
+    z-index: 2;
+}
+.SS-content .SSContainer .SSContainer_menuBox{
+    width: 800px;
+    height: 50px;
+    margin-bottom: 33px;
+    border-bottom: 1px dotted #333;
+}
+.SS-content .SSContainer .SSContainer_menuBox .SSContainer_menu{
+    padding-top: 14px;
+    margin-left: 10px;
+}
+.SS-content .SSContainer .SSContainer_menuBox .SSContainer_menu span{
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.SS-content .SSContainer .SSContainer_menuBox .SSContainer_menu span.choose{
+    color: #cea441
+}
+.SS-content .SSContainer .SSContainer_menuBox .SSContainer_menuAll{
+    display: block;
+    margin-top: 12px;
+    width: 131px;
+    height: 29px;
+    background: url("../image/image/viewAll_btn_18af8fe.png");
+}
+.SS-content .SSContainer_listBox{
+    position: relative;
+    width: 850px;
+    height: 220px;
+}
+.SS-content .SSContainer_listBox .SS-leftArrow{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -1138px  no-repeat;
+    position: absolute;
+    width: 42px;
+    height: 33px;
+    top: 83px;
+    left: -42px;
+    z-index: 20;
+    cursor: pointer;
+    display: none;
+}
+.SS-content .SSContainer_listBox .SS-rightArrow{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -1025px  no-repeat;
+    position: absolute;
+    width: 42px;
+    height: 33px;
+    top: 83px;
+    right: 40px;
+    z-index: 20;
+    cursor: pointer;
+}
+.SS-content .SSContainer_listBox .SSContainer_list{
+    width: 782px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+}
+.SS-content .SSContainer_listBox .SSContainer_list .SSContainer_list_temp{
+    overflow: hidden;
+    position: relative;
+    width: 828px;
+}
+.SS-content .SSContainer_listBox .SSContainer_list .SSContainer_list_temp .SS-icon_list{
+    width: 966px;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.SS-icon_list ul{
+    float: left;
+    width: 89px;
+    padding: 5px 24px 0 0;
+    height: 202px;
+    border-right: 1px solid #95a7a4;
+    margin-right: 24px;
+}
+.SS-icon_list ul li{
+    width: 89px;
+    height: 92px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.SS-icon_list ul li .SS-icon{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1503px -196px  no-repeat;
+    display: block;
+    width: 89px;
+    height: 92px;
+    position: relative;
+    border-radius: 100%;
+}
+.SS-icon_list ul li .SS-icon img{
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.SS-icon_list ul li .SS-icon span{
+    background: url("../image/image/mask_6b7d844.png") repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 92px;
+    border-radius: 100%;
+    z-index: 2;
+    display: table;
+    opacity: 0;
+    transition:0.3s;
+}
+.SS-icon_list ul li .SS-icon span em{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    display: inline-block;
+    zoom: 1;
+    font-weight: 400;
+    font-style: normal;
+    width: 19px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+}
+.SS-content .RoleContainer{
+    position: absolute;
+    left: 0;
+
+    top: 0;
+    opacity: 0;
+    width: 809px;
+    transition: 0.3s;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox{
+    width: 150px;
+    padding-top: 20px;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a{
+    position: relative;
+    display: block;
+    width: 136px;
+    height: 35px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a em{
+    transition:0.3s;
+    position: absolute;
+    opacity: 0;
+    top: 11px;
+    right: -10px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid #000;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a.RoleContainerChoose{
+    background: #fff;
+    border: 2px solid #000;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a.RoleContainerChoose em{
+    opacity: 1;
+}
+.RoleContainer_role.show{
+    opacity: 1;
+    z-index: 3;
+}
+.RoleContainer_role{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition:0.3s;
+}
+.RoleContainer_role>img{
+    float: left;
+    margin-top: -30px;
+    margin-right: 35px;
+}
+.RoleContainer_role .RoleContainer_roleInfo{
+    width: 227px;
+    padding-top: 40px;
+}
+.RoleContainer_role .RoleContainer_roleInfo .num1{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1359px -785px no-repeat;
+    display: block;
+    margin-bottom: 10px;
+    width: 38px;
+    height: 23px;
+}
+.RoleContainer_role .RoleContainer_roleInfo .num2{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1359px -808px no-repeat;
+    display: block;
+    margin-bottom: 10px;
+    width: 38px;
+    height: 23px;
+}
+.RoleContainer_role .RoleContainer_roleInfo .num3{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1359px -831px no-repeat;
+    display: block;
+    margin-bottom: 10px;
+    width: 38px;
+    height: 23px;
+}
+.RoleContainer_role .RoleContainer_roleInfo .num4{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1359px -762px no-repeat;
+    display: block;
+    margin-bottom: 10px;
+    width: 38px;
+    height: 23px;
+}
+.RoleContainer_role .RoleContainer_roleInfo h3{
+    line-height: 40px;
+    font-size: 30px;
+    color: #000;
+    border-bottom: 2px solid #000;
+    width: 227px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.RoleContainer_role .RoleContainer_roleInfo p{
+    width: 227px;
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 5px;
+    border-top: 1px solid #000;
+    margin-bottom: 19px;
+}
+.RoleContainer_role .RoleContainer_roleInfo a{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1640px -865px no-repeat;
+    display: block;
+    width: 55px;
+    height: 43px;
+}
+/*攻略*/
+.strategy{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.strategyBanner1{
+    width: 368px;
+    height: 430px;
+    border: 2px solid #000;
+    margin-right: 35px;
+    position: relative;
+}
+.strategySearchBox{
+    width: 372px;
+    height: 40px;
+    position: absolute;
+    left: -2px;
+    top: -58px;
+    border: 2px solid #000;
+}
+.strategySearchBox input{
+    width: 300px;
+    height: 39px;
+    line-height: 39px;
+    border: 0;
+    outline: medium;
+    position: absolute;
+    left: 16px;
+    top: 1px;
+}
+.strategySearchBox span{
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    cursor: pointer;
+    background:url("../image/Sprite/index_z_90de8dc.png")-1640px -705px no-repeat;
+}
+.strategyBanner1Box{
+    position: relative;
+    width: 368px;
+    height: 262px;
+    margin-bottom: 13px;
+}
+.banner1Img{
+    overflow: hidden;
+    position: relative;
+    width: 368px;
+}
+.banner1Img ul{
+    width: 736px;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+.banner1Img ul li{
+    float: left;
+    width: 368px;
+}
+.banner1Img ul li img{
+    width: 368px;
+    height: 228px;
+}
+.banner1Point{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 16px;
+    right: 12px;
+    bottom: 0;
+}
+.banner1Point span{
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    display: inline-block;
+    border: 4px solid #000;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.banner1Point span.on{
+    background: #000;
+}
+.strategyLeftMenu{
+    width: 100%;
+}
+.strategyLeftMenu a{
+    float: left;
+    height: 150px;
+    width: 60px;
+    padding-left: 32px;
+}
+.strategyLeftMenu a span{
+    transition: 0.3s;
+    float: left;
+    display: block;
+    width: 24px;
+    height: 134px;
+    margin-right: 25px;
+}
+.strategyLeftMenu a em{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1279px -315px no-repeat;
+    float: right;
+    display: block;
+    width: 11px;
+    height: 150px;
+}
+.strategyLeftMenu a:nth-of-type(1) span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1344px -315px no-repeat;
+}
+.strategyLeftMenu a:nth-of-type(2) span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1368px -315px no-repeat;
+}
+.strategyLeftMenu a:nth-of-type(3) span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1307px -466px no-repeat;
+}
+.strategyLeftMenu a:nth-of-type(4) span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1320px -315px no-repeat;
+}
+.strategyBanner2{
+    width: 790px;
+}
+.banner2TabBox{
+    width: 774px;
+    border-bottom: 1px solid #cbcdcc;
+    margin:auto;
+    margin-bottom: 28px;
+    padding-bottom: 12px;
+}
+.banner2TabBox a{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100px;
+    height: 91px;
+    margin: 5px 8px 0;
+    cursor: pointer;
+}
+.banner2TabBox a span{
+    position: relative;
+    z-index: 2;
+    width: 68px;
+    height: 39px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.banner2TabBox a em{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1592px -196px no-repeat;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 96px;
+    height: 91px;
+    opacity: 0;
+    transform: translate(0,10%);
+    transition: 0.3s;
+}
+.banner2TabBox a.choose em{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.banner2TabBox .banner2Tab1{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1479px -292px no-repeat;
+    width: 134px;
+    height: 85px;
+    margin-right: 12px;
+    margin-left: -15px;
+}
+.banner2TabBox .banner2-dot{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1479px -377px no-repeat;
+    display: block;
+    margin-top: 50px;
+    float: left;
+    width: 44px;
+    height: 4px;
+}
+.banner2TabBox .banner2-newPlayer span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1640px -986px no-repeat;
+}
+.banner2TabBox .banner2-ss span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1326px -993px no-repeat;
+    margin-top: 27px;
+    width: 71px;
+    height: 31px;
+}
+.banner2TabBox .banner2-fight span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1251px -993px no-repeat;
+    margin-top: 24px;
+    width: 75px;
+    height: 38px;
+}
+.banner2TabBox .banner2-ways span{
+    background:url("../image/Sprite/index_z_90de8dc.png") -661px -1166px no-repeat;
+    margin-top: 29px;
+    width: 80px;
+    height: 31px;
+}
+.banner2ContentBox{
+    overflow: hidden;
+    position: relative;
+    width: 835px;
+}
+.banner2Content{
+    width: 4175px;
+    height: 300px;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+.banner2Content ul{
+    float: left;
+    width: 830px;
+    height: 100%;
+    padding-left: 5px;
+}
+.banner2Content ul li{
+    float: left;
+    margin-right: 56px;
+    width: 342px;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #333;
+}
+.banner2Content ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.banner2Content ul li a p{
+    position: relative;
+    font-size: 14px;
+    color: #333;
+}
+.banner2Content ul li a p i{
+    position: absolute;
+    top: 5px;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid #333;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.banner2Content ul li a p span{
+    display: block;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.banner2Content ul li em{
+    font-size: 14px;
+    color: #b2afaf;
+    font-weight: 400;
+    font-style: normal;
+}
+/*同人专区*/
+.tongRen{
+    width: 1220px;
+    margin: 0 auto;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+.tongRen_tabBox{
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    position: relative;
+}
+.tongRen_logo{
+    float: left;
+    width: 112px;
+    height: 106px;
+    margin-top: -19px;
+    margin-right: 24px;
+    background:url("../image/Sprite/index_z_90de8dc.png") -907px -872px no-repeat;
+}
+.tongRen_tabs{
+    position: relative;
+    width: 1062px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.tongRen_tabs li{
+    float: left;
+    width: 155px;
+    height: 75px;
+    border-bottom: 2px solid #000;
+}
+.tongRen_tabs li a{
+    position: absolute;
+    display: block;
+    width: 155px;
+    height: 58px;
+    border-left: 1px dotted #000;
+}
+.tongRen_tabs li:first-child a{
+    border-left: none;
+}
+.tongRen_tabs li a span{
+    width: 100%;
+    height: 18px;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    transition: 0.5s;
+}
+.tongRen_tabs li.on a span{
+    top: 2px;
+}
+.tongRen_tabs li a span em{
+    background:url("../image/Sprite/index_z_90de8dc.png")  no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+.tongRen_tabs li a i{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -75px;
+    height: 54px;
+    background: url("../image/Sprite/icons_8a667d7.png");
+    transition: 0.5s;
+}
+.tongRen_tabs li.on a i{
+    bottom: -20px
+}
+.tongRen_tabs li:nth-of-type(1) a i{
+    background-position: 0 0;
+}
+.tongRen_tabs li:nth-of-type(2) a i{
+    background-position: -165px 0;
+}
+.tongRen_tabs li:nth-of-type(3) a i{
+    background-position: -314px 0;
+}
+.tongRen_tabs li:nth-of-type(4) a i{
+    background-position: -476px 0;
+}
+.tongRen_tabs li:nth-of-type(5) a i{
+    background-position: -625px 0;
+}
+.tongRen_tabs li:nth-of-type(6) a i{
+    background-position: -924px 0;
+}
+.tongRen_tabs li:nth-of-type(1) a span em{
+    background-position: -1008px -790px;
+    width: 72px;
+}
+.tongRen_tabs li:nth-of-type(2) a span em{
+    background-position: -210px -666px;
+    width: 70px;
+    height: 17px;
+}
+.tongRen_tabs li:nth-of-type(3) a span em{
+    background-position: -1008px -808px;
+    width: 72px;
+}
+.tongRen_tabs li:nth-of-type(4) a span em{
+    background-position: -1008px -826px;
+    width: 71px
+}
+.tongRen_tabs li:nth-of-type(5) a span em{
+    background-position: -1008px -844px;
+    width: 71px;
+}
+.tongRen_tabs li:nth-of-type(6) a span em{
+    background-position: -1218px -1290px;
+    width: 88px;
+    height: 18px;
+}
+.tongRen_tabs .blank{
+    width: 132px;
+}
+.submit-writing{
+    background:url("../image/Sprite/index_z_90de8dc.png") -406px -1410px no-repeat;
+    position: absolute;
+    top: 28px;
+    width: 101px;
+    height: 24px;
+    right: 0;
+    transition: 0.5s;
+}
+.tongRen_contentBox{
+    overflow: hidden;
+    position: relative;
+    width: 1220px;
+}
+.tongRen_content{
+    width: 7320px;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+.tongRen_content ul{
+    float: left;
+    width: 1220px;
+    height: 415px;
+}
+.tongRen_content ul li{
+    float: left;
+    width: 285px;
+    height: 200px;
+    margin: 0 10px 10px;
+}
+.tongRen_content ul li a{
+    display: block;
+    width: 100%;
+    height: 163px;
+    overflow: hidden;
+    position: relative;
+}
+.tongRen_content ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.tongRen_content ul li a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background: url("../image/image/mask_6b7d844.png") repeat;
+}
+.tongRen_content ul li a span em{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1424px -196px no-repeat;
+    position: absolute;
+    width: 79px;
+    height: 93px;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -46px;
+}
+.tongRen_content ul li p{
+    line-height: 42px;
+    color: #666;
+    height: 42px;
+    font-size: 14px;
+}
+.tongRen_content ul li p .tongRen_content_info{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+}
+/*视频壁纸*/
+.resource{
+    width: 1920px;
+    height: 514px;
+    margin: auto;
+    margin-bottom: 65px;
+    background: url("../image/image/video_bg_69d56fe.jpg");
+}
+.resource_content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+.videoBox,.wallpaper{
+    width: 580px;
+}
+.videoBox_logo{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1080px -466px no-repeat;
+
+}
+.videoBox_logo,.wallpaperBox_logo{
+    width: 227px;
+    height: 148px;
+    margin-right: 62px;
+    cursor: pointer;
+}
+.videoBox a{
+    margin-right: 20px;
+}
+.videoBox a,.wallpaper a{
+
+    display: block;
+    float: left;
+    position: relative;
+    width: 270px;
+    height: 200px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.videoBox a img,.wallpaper a img{
+    display: block;
+    width: 100%;
+    height: 154px;
+    transition: 0.5s;
+}
+.videoBox a p{
+    color: #000;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 12px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fff
+}
+.wallpaperBox_logo{
+    background:url("../image/Sprite/index_z_90de8dc.png") -1100px -612px no-repeat;
+}
+.wallpaper a{
+    margin-left: 20px;
+}
+.wallpaper a p{
+    width: 100%;
+    height: 45px;
+    color: #666;
+    font-size: 14px;
+    line-height: 45px;
+    text-indent: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*活动专区*/
+.   activityPlace{
+    width: 1270px;
+    height: 434px;
+    margin:auto;
+}
+.activityPlace_logo{
+    width: 257px;
+    height: 370px;
+    margin-right: 37px;
+    background: url("../image/image/activity_title_0dc5028.png");
+}
+.activityContent{
+    width: 965px;
+}
+.activityContent li{
+    margin: 0 25px 37px;
+    float: left;
+    position: relative;
+}
+.activityContent li a{
+    display: block;
+    width: 270px;
+    height: 153px;
+    overflow: hidden;
+}
+.activityContent li a img{
+    width: 270px;
+    height: 153px;
+    transition: 0.5s;
+}
+.activityContent li a span{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+}
+/*二维码*/
+.code{
+    position: relative;
+    width: 1200px;
+    margin:auto;
+    padding-bottom: 74px;
+}
+.linkIndex{
+    display: block;
+    width: 70px;
+    height: 199px;
+    margin-right: 105px;
+    background: url("../image/image/logo_df9cf4d.png");
+}
+.blogCode,.wechatCode{
+    width: 270px;
+    padding-top: 20px;
+    height: 180px;
+    position: relative;
+    background: #f6f6f6;
+    margin-right: 117px;
+}
+.blogCode .code,.wechatCode .code{
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    background: #fff;
+    right: -32px;
+    top: -32px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.blogCode .code img,.wechatCode .code img{
+    width: 132px;
+    height: 132px;
+}
+.blogCode .codeInfo,.wechatCode .codeInfo{
+    margin-left: 30px;
+}
+.blogCode .codeInfo p,.wechatCode .codeInfo p{
+    width: 27px;
+    float: left;
+    line-height: 17px;
+}
+.blogCode .codeInfo span{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 96px;
+    margin-top: 2px;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1400px -196px no-repeat;
+}
+.wechatCode .codeInfo span{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 119px;
+    margin-top: 1px;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1331px -466px no-repeat;
+}
+.blogCode .line,.wechatCode .line{
+    width: 52px;
+    height: 2px;
+    background: #d1d1d1;
+    position: absolute;
+    bottom: 40px;
+    left: 33px;
+}
+.blogCode>a,.wechatCode>a{
+    position: absolute;
+    bottom: 15px;
+    left: 33px;
+    color: #000;
+    font-size: 14px;
+}
+.blogCode>a span,.wechatCode>a span{
+    color: #d2c199;
+}
+.service{
+    position: relative;
+    width: 225px;
+    height: 90px;
+    padding-top: 95px;
+}
+.service_icon{
+    position: absolute;
+    width: 111px;
+    height: 109px;
+    top: -32px;
+    left: 0;
+    background: url("../image/Sprite/index_z_90de8dc.png") -541px -474px no-repeat;
+}
+.service p:first-child{
+    font-size: 14px;
+    line-height: 22px;
+    /*position: absolute;*/
+    /*top: 123px;*/
+    /*left: 0;*/
+}
+.service p:nth-of-type(2){
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 22px;
+    /*position: absolute;*/
+    /*top: 145px;*/
+    /*left: 0;*/
+}
+.service .line{
+    width: 52px;
+    height: 2px;
+    background: #d1d1d1;
+    display: block;
+    margin-bottom: 4px;
+    /*position: absolute;*/
+    /*top: 196px;*/
+    /*left: 0;*/
+}
+.service .return{
+    display: block;
+    color: #c9b27c;
+    font-size: 12px;
+}
+.service .return a{
+    font-size: 13px;
+    color: #dbbe7c;
+    margin-right: 5px;
+}
+.returnTop{
+    position: absolute;
+    width: 25px;
+    height: 111px;
+    right: -45px;
+    top: 15px;
+    transition: 0.5s;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1355px -466px no-repeat;
+
+}
+/*底部*/
+.footer{
+    height: 410px;
+    padding-top: 114px;
+    width: 1920px;
+    margin: 0 auto;
+    background: url("../image/image/foot_6eb522e.jpg") no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.footer_txt1{
+    opacity: 0;
+    width: 591px;
+    height: 29px;
+    display: block;
+    margin: 0 auto;
+    background: url("../image/Sprite/index_z_90de8dc.png") -742px -1166px no-repeat;
+    animation: floatOut 0.5s linear forwards;
+}
+
+.footerAnimation{
+    display: block;
+    width: 330px;
+    height: 380px;
+    margin:auto;
+    overflow: hidden;
+}
+.footerAnimation .footer_txt2{
+    opacity: 0;
+    transition: 0.5s linear;
+    display: block;
+    width: 116px;
+    height: 23px;
+    position: absolute;
+    left: 50%;
+    margin-left: -58px;
+    top: 195px;
+    animation: floatOut 0.5s 0.15s linear forwards;
+}
+.footerAnimation .footer_txt2 em{
+    transition:0.5s linear;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../image/Sprite/index_z_90de8dc.png") -507px -1410px no-repeat;
+}
+.footerAnimation .tab{
+    animation: floatOut 0.5s 0.2s linear forwards;
+    background: url("../image/Sprite/index_z_90de8dc.png") -1639px -382px no-repeat;
+    opacity: 0;
+    transition:0.5s ease;
+    display: block;
+    width: 22px;
+    height: 76px;
+    position: absolute;
+    margin-left: -11px;
+    left: 50%;
+    top: 250px;
+}
+.footer_code{
+    transition: 0.5s ease;
+    transform: translate(0,30px);
+    opacity: 0;
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    margin-left: -76px;
+}
+.footer_code img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 30px #a7b9c2;
+}
+.footer_code p{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1290px -315px no-repeat;
+    position: absolute;
+    top: 0;
+    right: -45px;
+    width: 16px;
+    height: 150px;
+}
+.footerAnimation .door{
+    background: url("../image/Sprite/index_z_90de8dc.png") 0 -364px no-repeat;
+    display: block;
+    width: 210px;
+    height: 319px;
+    position: absolute;
+    margin-left: -105px;
+    left: 50%;
+    top: 320px;
+    transition: 0.5s;
+
+}
+
+
+
+@keyframes floatOut {
+    from{
+        opacity: 0;
+        transform: translate(0,-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0)
+    }
+}
+.share{
+    position: relative;
+    width: 460px;
+    margin:auto;
+    padding-top: 20px;
+    z-index: 20;
+    text-align: center;
+
+}
+.share>span{
+    margin-right: 10px;
+    color: #de7f7f;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    box-sizing: content-box;
+}
+.share .shareIco *{
+    font-weight: 400;
+    text-align: left;
+    box-sizing: content-box;
+}
+.share .shareIco li{
+     float: left;
+}
+.share .shareIco li a{
+    color: #de7f7f;
+    line-height: 14px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.share .shareIco li a .weixinIcon{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.share .shareIco li a em{
+    margin-left: 3px;
+    display: inline-block;
+    font-style: normal;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/*****************/
+.web-information{
+    width: 840px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.web-information1_logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 280px;
+}
+.web-information1_logo a{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.web-information1_logo a:nth-of-type(1) img{
+    padding-top: 5px;
+    vertical-align: middle;
+}
+.web-information1_logo a:nth-of-type(2) img{
+    padding-right: 15px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+.web-information1_txt{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 6px;
+    position: relative;
+    z-index: 1;
+}
+.web-information1_txt2{
+    height: 28px;
+    line-height: 28px;
+}
+.web-information1_txt2 a{
+    color: #fff;
+    display: inline-block;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    top: 21px;
+}
+.web-information2{
+    padding-top: 10px;
+    line-height: 24px;
+}

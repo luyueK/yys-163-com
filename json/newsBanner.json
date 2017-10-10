@@ -1,0 +1,22 @@
+{
+ "newsBanner":[
+   {
+     "src":"image/ajax/newsBanner1.jpg"
+   },
+   {
+     "src":"image/ajax/newsBanner2.jpg"
+   },
+   {
+     "src":"image/ajax/newsBanner3.jpg"
+   },
+   {
+     "src":"image/ajax/newsBanner4.jpg"
+   },
+   {
+     "src":"image/ajax/newsBanner5.png"
+   },
+   {
+     "src":"image/ajax/newsBanner6.jpg"
+   }
+ ]
+}

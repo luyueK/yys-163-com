@@ -1,0 +1,29 @@
+{
+  "activityPlace":[
+    {
+      "src":"image/ajax/activity1.png",
+      "info":"式神应援物设计大赛"
+    },
+    {
+      "src":"image/ajax/activity2.png",
+      "info":"《阴阳师》式神应援活动"
+    },
+    {
+      "src":"image/ajax/activity3.png",
+      "info":"《阴阳师》和风美物大放送！"
+    },
+    {
+      "src":"image/ajax/activity4.png",
+      "info":"和阴阳师一起关爱流浪动物"
+    },
+    {
+      "src":"image/ajax/activity5.png",
+      "info":"必胜客回馈季活动开启！"
+    },
+    {
+      "src":"image/ajax/activity6.png",
+      "info":"花火同人祭 式神浴衣设计大赛"
+    }
+  ]
+
+}

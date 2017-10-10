@@ -1,0 +1,103 @@
+.tieba:hover .tiebaInner,.luntan:hover .luntanInner {
+    transform: translate(0,-15px)
+}
+.topBar_content_menu-hover ul li:hover,
+.topBar_content_gameCatalogue-hover:hover,
+.scrollMenu:hover a{
+    border-bottom: 3px solid #bc2e2e;
+    color: #bc2e2e;
+    background-color: #F3F3F3;
+}
+.arrow-h:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.banner .banner_topBar .banner_topBar_menu-h li a:hover{
+    color:#bc2e2e ;
+}
+.news_allNewsContent-h ul li a:hover{
+    color: #c1831c
+}
+.downLoad_allContent .android-apple-downLoad .appleAddress-h:hover{
+    background: url("../image/Sprite/index_z_90de8dc.png") -907px -978px  no-repeat;
+}
+.downLoad_allContent .android-apple-downLoad .androidAddress-h:hover{
+    background: url("../image/Sprite/index_z_90de8dc.png") -1345px -1314px no-repeat;
+}
+
+.downLoad_allContent .PC-download:hover .PC-download_information,
+.downLoad_allContent .PC-download:hover i{
+    opacity: 1;
+    transition: 1s;
+}
+.downLoad_allContent .PC-download:hover .PC-download-h{
+   display: block;
+}
+.gameCalendarList-h:hover{
+    transform: translate(19px,0);
+    transition: 0.5s;
+
+}
+.SS-tittle a:hover em,
+.banner2TabBox a:hover em{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.SS-content .SSContainer .SSContainer_menuBox .SSContainer_menu span:hover{
+    color: #cea441
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a:hover{
+    background: #fff;
+    border: 2px solid #000;
+}
+.SS-content .RoleContainer .RoleContainer_tabBox a:hover em{
+    opacity: 1;
+}
+.RoleContainer_role .RoleContainer_roleInfo a:hover{
+    opacity: 0.7;
+}
+.strategyLeftMenu a:hover span{
+    transform: translate(0,-10px);
+    transition: 0.3s;
+}
+.banner2Content ul li a:hover p span{
+    color: #c1831c
+}
+.tongRen_tabs li a:hover span{
+    top: 2px;
+
+}
+.tongRen_tabs li a:hover i{
+    bottom: -20px
+}
+.submit-writing:hover{
+    transform: translate(20px,0);
+}
+.tongRen_content ul li a:hover span,.SS-icon_list ul li .SS-icon:hover span{
+    opacity: 1;
+}
+.videoBox a:hover img,.wallpaper a:hover img,.activityContent li a:hover img{
+    transform: scale(1.1)
+}
+.returnTop:hover{
+    transform: translate(0,-20px)
+}
+.footerAnimation:hover .footer_txt2 em{
+    opacity: 0;
+}
+.footerAnimation:hover .tab{
+    top: 175px;
+}
+.footerAnimation:hover .footer_code{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.footerAnimation:hover .door{
+    top: 385px
+}
+.web-information1_txt1 a:hover,.web-information1_txt2 a:hover,.web-information2 a:hover{
+    text-decoration: underline;
+}
+.gameCatalogue_content li a:hover{
+    color: #bc2e2e;
+}
